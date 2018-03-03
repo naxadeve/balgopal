@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { ActivityIndicator, ListView, Text, AsyncStorage, View ,Alert} from 'react-native';
-import {Actions} from 'react-native-router-flux';
+import { ActivityIndicator, ListView, Text, AsyncStorage, View } from 'react-native';
 
 export default class SiteList extends Component {
   constructor(props) {
@@ -31,7 +30,7 @@ export default class SiteList extends Component {
             isLoading: false,
             dataSource: ds.cloneWithRows(responseJson.data.my_sites),
           },
-          function() {// do something with new state\
+          function () { // do something with new state\
           }
         );
       })
@@ -54,7 +53,7 @@ export default class SiteList extends Component {
         <ListView
           dataSource={this.state.dataSource}
           renderRow={rowData => 
-          <Text>{  rowData.project.name}{': '}{rowData.project.phone}, {'\n'}{  rowData.site.name}{': '}{rowData.site.id}</Text>
+          <Text>{ rowData.project.name}{': '}{rowData.project.phone}, {'\n'}{ rowData.site.name}{': '}{rowData.site.id}</Text>
           }
         />
       </View>

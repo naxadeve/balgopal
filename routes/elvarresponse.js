@@ -1,0 +1,114 @@
+{
+    "code": 200,
+    "data": {
+        "username": "elvar",
+        "profile_pic": "/media/user_elvar/profile_pic_1519029735946",
+        "my_projects": [
+            {
+                "cluster_sites": true,
+                "description": "",
+                "type_id": 1,
+                "phone": "+977-5654554",
+                "address": "Somewhere",
+                "lat": "27.7148758145",
+                "id": 81,
+                "name": "Project XOX",
+                "type_label": "School",
+                "lon": "85.3243088722",
+                "sites": [
+                    {
+                        "description": "Dokha Dokha",
+                        "type_id": 1,
+                        "phone": "8787676797",
+                        "site_meta_attributes_ans": {
+                            "What_is_your_name__": "samir",
+                            "What_is_your_age__": "18",
+                            "What_is_your_dob__": "2001"
+                        },
+                        "address": "Daschin Dokha",
+                        "lat": "27.7150483",
+                        "id": 9251,
+                        "name": "Samir Ghar",
+                        "blueprints": [],
+                        "type_label": "School",
+                        "region": {},
+                        "lon": "85.3243261",
+                        "progress": 0,
+                        "identifier": "Samir",
+                        "add_desc": null
+                    },
+                    {
+                        "description": "Dr. Who",
+                        "type_id": 4,
+                        "phone": "6765679761",
+                        "site_meta_attributes_ans": {},
+                        "address": "Banewshowr",
+                        "lat": "27.7150317",
+                        "id": 9250,
+                        "name": "Sumit Niwas",
+                        "blueprints": [],
+                        "type_label": "Government",
+                        "region": {
+                            "region_id": 161,
+                            "region_name": "test",
+                            "region_identifier": "id23"
+                        },
+                        "lon": "85.3243415",
+                        "progress": 0,
+                        "identifier": "Sumit",
+                        "add_desc": null
+                    },
+                    {
+                        "description": "",
+                        "type_id": 1,
+                        "phone": "",
+                        "site_meta_attributes_ans": {},
+                        "address": "",
+                        "lat": "27.714875814507074",
+                        "id": 9249,
+                        "name": "Fanta",
+                        "blueprints": [],
+                        "type_label": "School",
+                        "region": {},
+                        "lon": "85.3243088722229",
+                        "progress": 100,
+                        "identifier": "Fanta",
+                        "add_desc": ""
+                    }
+                ],
+                "organization_name": "Android@Naxa",
+                "site_meta_attributes": [
+                    {
+                        "question_name": "What_is_your_name__",
+                        "is_deleted": false,
+                        "question_text": "What is your name ?",
+                        "question_type": "Text"
+                    },
+                    {
+                        "question_name": "What_is_your_age__",
+                        "question_text": "What is your age ?",
+                        "is_deleted": false,
+                        "question_type": "Number"
+                    },
+                    {
+                        "question_name": "What_is_your_dob__",
+                        "question_text": "What is your dob ?",
+                        "is_deleted": false,
+                        "question_type": "Date"
+                    }
+                ],
+                "organization_url": "/media/logo/172_Butwal.jpg"
+            }
+        ],
+        "address": "Location",
+        "phone": "9845323695",
+        "full_name": "Nishon",
+        "skype": "sjsjjs.hsjsjs",
+        "server_time": "2018-03-03T13:00:11",
+        "is_supervisor": true,
+        "last_login": "2018-02-25T07:03:08.627Z",
+        "organization": "Android@Naxa",
+        "organization_url": "/media/logo/172_Butwal.jpg",
+        "email": "elvar@fieldsight.org"
+    }
+}

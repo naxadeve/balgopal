@@ -77,6 +77,7 @@ import {Router, Scene} from 'react-native-router-flux';
 
 import Authentication from './routes/Authentication';
 import HomePage from './routes/HomePage';
+import ShowMap from './routes/ShowMap';
 import SiteList from './routes/SiteList';
 
 class App extends Component {
@@ -133,6 +134,12 @@ class App extends Component {
               hideNavBar={true}
               key="SiteList"
               title="Site List"
+            />
+            <Scene
+              component={ShowMap}
+              hideNavBar={true}
+              key="ShowMap"
+              title="Show Map"
             />
             
           </Scene>
