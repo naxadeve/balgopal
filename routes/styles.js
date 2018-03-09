@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export default styles = StyleSheet.create({
+const styles = StyleSheet.create({
   buttonText: {
     color: 'white',
     fontSize: 20,
@@ -8,7 +8,7 @@ export default styles = StyleSheet.create({
     textAlign: 'center'
   },
   buttonWrapper: {
-		backgroundColor:'#003860',
+		backgroundColor: '#003860',
 		marginBottom: 10,
     width: 300
   },
@@ -34,3 +34,4 @@ export default styles = StyleSheet.create({
     textAlign: 'center'
   },
 });
+export default styles;

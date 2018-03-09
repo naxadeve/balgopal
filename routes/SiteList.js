@@ -10,13 +10,11 @@ export default class SiteList extends Component {
   }
 
   componentDidMount() {
-    return AsyncStorage.getItem('token').then((token) => { 
-     
-
-      fetch("http://kc.naxa.com.np/users/me/", {
-        method: "GET",
+    return AsyncStorage.getItem('token').then((token) => {
+    fetch('http://kc.naxa.com.np/users/me/', {
+        method: 'GET',
         headers: {
-          'Authorization': token
+          Authorization: token
         }
       })
       .then(response => response.json())
@@ -30,13 +28,12 @@ export default class SiteList extends Component {
             isLoading: false,
             dataSource: ds.cloneWithRows(responseJson.data.my_sites),
           },
-          function () { // do something with new state\
+          function() { // do something with new state\
           }
         );
       })
-      .catch(error => {console.error(error);});
-    
-  })
+      .catch(error => { console.error(error); });
+    });
 }
 
   render() {
@@ -52,12 +49,13 @@ export default class SiteList extends Component {
       <View style={{ flex: 1, paddingTop: 20 }}>
         <ListView
           dataSource={this.state.dataSource}
-          renderRow={rowData => 
-          <Text>{ rowData.project.name}{': '}{rowData.project.phone}, {'\n'}{ rowData.site.name}{': '}{rowData.site.id}</Text>
+          renderRow={rowData =>
+          <Text>
+          { rowData.project.name}
+          {': '}{rowData.project.phone}, {'\n'}{ rowData.site.name}{': '}{rowData.site.id}</Text>
           }
         />
       </View>
     );
   }
 }
-
